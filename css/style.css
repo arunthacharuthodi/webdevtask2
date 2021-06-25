@@ -1,0 +1,73 @@
+
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+*{
+    padding: 0px;
+    
+    margin: 0px;
+    /* apply google fonts  */
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+
+/* body{
+    align-items: center; */
+/* }
+section{
+    background-color: yellowgreen;
+} */
+.nav_bar{
+    background: #C4C4C4;
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+}
+.logo img{
+    height: 48px;
+}
+.nav_links{
+    /* background-color: aquamarine; */
+    padding: 20;
+    
+}
+.nav_links ul{
+    display: flex;
+    
+    
+    
+}
+.nav_links ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+.collageImage{
+    margin-top: 200;
+
+}
+.collageImage img{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* background-color: yellow; */
+width: 300px;
+height: 300px;
+}
+.heading{
+    font-size: 36px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 30px;
+}
+.content{
+    width: 60%;
+        margin-left: auto;
+    margin-right: auto;
+}
